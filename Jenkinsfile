@@ -7,7 +7,7 @@ pipeline {
     stages { 
         stage('SCM Checkout') {
             steps{
-            git 'https://github.com/shahjad-k/Docker-Project2025.git'
+            git url: 'https://github.com/shahjad-k/Docker-Project2025.git'
             }
         }
 
